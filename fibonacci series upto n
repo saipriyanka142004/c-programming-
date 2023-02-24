@@ -1,0 +1,18 @@
+#include<stdio.h>
+int main() 
+{
+   int i,t3=0,n;
+   int t1=0;
+   int t2=1;
+   printf("\nEnter a number to generate fibonacci series upto nth term\n");
+   scanf("%d",&n); 
+   printf("Fibonacci series upto %d term:-\n",n);
+   while(t3<=n)
+   {
+       printf("%d ",t3);
+       t1=t2;
+       t2=t3;
+       t3=t1+t2;
+   }
+   return 0;
+}
