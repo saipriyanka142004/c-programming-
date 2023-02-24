@@ -1,0 +1,16 @@
+#include<stdio.h>
+int main()
+{
+	int d1;
+	printf("enter the decimal number ");
+	if(scanf("%d",&d1))
+	{
+		printf("\ndecimal number -->%d",d1);
+		printf("\nhexa decimal --->%x",d1);
+	}
+	else
+	{
+		printf("invalid");
+	}
+  return 0;
+}
